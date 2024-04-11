@@ -4,7 +4,8 @@ import logo from "../../public/img/logo.svg"
 ---
 
 <nav
-    class="bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-600"
+    class="bg-gradient-to-b from-slate-900 fixed w-full z-20 top-0 start-0"
+    id="navbar"
 >
     <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto py-2 px-4">
         <a
@@ -56,7 +57,7 @@ import logo from "../../public/img/logo.svg"
             id="navbar-sticky"
         >
             <ul
-                class="flex flex-col p-4 lg:p-0 mt-4 font-medium border rounded-lg lg:space-x-8 lg:flex-row lg:mt-0 lg:border-0 lg:items-center bg-gray-800 lg:bg-gray-900 border-gray-700"
+                class="flex flex-col p-4 lg:p-0 mt-4 font-medium border rounded-lg lg:space-x-8 lg:flex-row lg:mt-0 lg:border-0 lg:items-center bg-gray-800 lg:bg-transparent border-gray-700"
             >
                 <li>
                     <a
@@ -90,3 +91,10 @@ import logo from "../../public/img/logo.svg"
         </div>
     </div>
 </nav>
+<script>
+    var navbar = document.querySelector('nav')
+
+    window.addEventListener("scroll", function(){
+        navbar.classList.toggle("backdrop-blur-md", window.scrollY > 0)
+    })
+</script>

@@ -1,5 +1,6 @@
 ---
 import Navbar from "../components/Navbar.astro";
+import Hero from "../components/Hero.astro";
 ---
 
 <html lang="es">
@@ -10,8 +11,9 @@ import Navbar from "../components/Navbar.astro";
 		<meta name="generator" content={Astro.generator} />
 		<title>IddO Tec</title>
 	</head>
-	<body class="max-w-screen-2xl h-screen mx-auto flex justify-center items-center">
+	<body class="bg-slate-900 max-w-screen-2xl h-screen mx-auto flex justify-center items-center">
 		<Navbar/>
+		<Hero/>
 		<script src="../../node_modules/flowbite/dist/flowbite.min.js"></script>
 	</body>
 </html>
