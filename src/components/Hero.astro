@@ -4,38 +4,38 @@ import hero from "../../public/img/hero.svg";
 ---
 
 <section>
-    <div class="px-4 mx-auto max-w-screen-2xl sm:px-6 md:px-12 lg:px-24 lg:py-24">
-        <div class="flex flex-wrap items-center mx-auto max-w-7xl">
+    <div class="px-12 mx-auto max-w-screen-2xl lg:px-24 lg:py-24">
+        <div class="flex flex-wrap items-center justify-center mx-auto gap-8">
             <div class="mt-16 w-full lg:max-w-lg lg:w-1/2 rounded-xl lg:mt-0">
-                <div>
+                <div class="flex justify-center items-center">
                     <div class="relative w-full max-w-lg">
                         <div
-                            class="absolute top-0 rounded-full bg-emerald-400 -right-4  w-56 h-56 mix-blend-lighten filter blur-[75px] opacity-70 animate-blob"
+                            class="absolute top-0 rounded-full bg-emerald-400 -right-4  w-56 h-56 mix-blend-lighten filter blur-[75px] opacity-70 lg:blur-[150px] lg:-right-14"
                         >
                         </div>
 
                         <div
-                            class="absolute rounded-full bg-emerald-400 -bottom-8 right-28 w-56 h-56 mix-blend-lighten filter blur-[75px] opacity-70 animate-blob animation-delay-4000"
+                            class="absolute rounded-full bg-emerald-400 -bottom-8 right-28 w-56 h-56 mix-blend-lighten filter blur-[75px] opacity-70 lg:blur-[150px] lg:right-60"
                         >
                         </div>
-                        <div class="relative">
-                            <Image class="drop-shadow-sm" src={hero} alt="hero"/>
+                        <div class="max-w-full flex justify-center items-center">
+                            <Image class="drop-shadow-xl max-w-80 lg:max-w-lg" src={hero} alt="hero"/>
                         </div>
                     </div>
                 </div>
             </div>
             <div
-                class="flex flex-col items-start mt-12 text-left lg:flex-grow lg:w-1/2 lg:pl-6 xl:pl-24 md:mb-0 xl:mt-0"
+                class="flex flex-col items-center mt-12 text-center lg:flex-grow lg:max-w-3xl lg:pl-6 lg:mb-0 lg:mt-0 lg:items-start lg:text-left"
             >
                 <span class="mb-8 text-xs font-bold tracking-widest text-blue-500 uppercase lg:mt-20">
                     Inspira, Conecta, Destaca
                 </span>
                 <h1
-                    class="mb-8 text-4xl font-bold leading-none tracking-tighter text-white md:text-7xl lg:text-5xl"
+                    class="mb-8 text-4xl font-bold text-white lg:text-6xl"
                 >
-                    ¡Tu Página Web, Tu Estilo, Nuestro Arte!
+                    ¡Tu Página Web, Tu Estilo, <br>Nuestro Arte!
                 </h1>
-                <p class="mb-8 text-base leading-relaxed text-left text-gray-400">
+                <p class="mb-8 text-base leading-relaxed text-gray-400">
                     Explora cómo nuestro enfoque personalizado y experiencia en desarrollo web pueden llevar tu negocio al siguiente nivel.
                 </p>
             </div>
