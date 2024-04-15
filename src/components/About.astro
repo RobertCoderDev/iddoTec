@@ -1,0 +1,51 @@
+---
+import { Image } from "astro:assets";
+import about from "../../public/img/about.svg";
+---
+
+<section>
+    <div class="px-6 mx-auto max-w-screen-2xl lg:pt-52">
+        <div class="flex flex-wrap-reverse items-center justify-center mx-auto lg:gap-8">
+            <div
+                class="flex flex-col items-center mt-12 text-center lg:flex-grow lg:max-w-3xl lg:mb-0 lg:mt-0 lg:items-start lg:text-left"
+            >
+                <h2 class="mb-4 text-3xl font-bold text-white lg:text-5xl">
+                    Quiénes Somos: Descubre la Pasión que Impulsa a IddO Tec
+                </h2>
+                <p class="mb-4 text-base text-gray-400 sm:text-lg">
+                    Somos un equipo apasionado que ama lo que hace. Nos encanta el diseño
+                    web, el desarrollo creativo y hacer que las cosas sucedan en el mundo
+                    digital.
+                </p>
+                <p class="text-base text-gray-400 sm:text-lg">
+                    Nuestra misión es simple: ayudarte a destacar en línea. Queremos que
+                    tu presencia en la web sea única, atractiva y efectiva. Ya sea que
+                    necesites una página web elegante, una tienda en línea o una
+                    aplicación web innovadora, estamos aquí para ti.
+                </p>
+            </div>
+            <div class="mt-16 w-full lg:max-w-lg lg:w-1/2 rounded-xl lg:mt-0">
+                <div class="flex justify-center items-center">
+                    <div class="relative w-full max-w-lg">
+                        <div
+                            class="absolute top-0 rounded-full bg-emerald-400 -right-4 w-56 h-56 mix-blend-lighten filter blur-[75px] opacity-70 lg:blur-[150px] lg:-right-14"
+                        >
+                        </div>
+
+                        <div
+                            class="absolute rounded-full bg-emerald-400 -bottom-8 right-28 w-56 h-56 mix-blend-lighten filter blur-[75px] opacity-70 lg:blur-[150px] lg:right-60"
+                        >
+                        </div>
+                        <div class="max-w-full flex justify-center items-center">
+                            <Image
+                                class="drop-shadow-xl max-w-80 sm:max-w-md"
+                                src={about}
+                                alt="hero"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
