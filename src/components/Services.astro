@@ -1,0 +1,363 @@
+---
+import { Image } from "astro:assets";
+import onePage from "../../public/img/onePage.svg";
+import multiPage from "../../public/img/multiPage.svg";
+import ads from "../../public/img/ads.svg";
+---
+
+<section class="px-6 mt-12 lg:py-16 lg:px-24 lg:pt-40">
+    <div class="mb-8 lg:mb-12">
+        <h2 class="text-3xl font-bold text-white mb-4 text-center lg:text-5xl">
+            Elige tu Plan Ideal
+        </h2>
+        <p class="mb-12 text-base text-gray-400 sm:text-lg sm:text-center">
+            Descubre nuestros precios. ¿No encuentras el adecuado? contáctanos.
+        </p>
+    </div>
+    <div class="space-y-8 xl:grid xl:grid-cols-3 sm:gap-6 xl:gap-10 xl:space-y-0">
+        <!-- 1 Pricing Card -->
+        <div
+            class="flex flex-col items-center p-8 mx-auto max-w-lg text-center bg-gray-800 bg-opacity-40 rounded-lg"
+        >
+            <Image
+                class="drop-shadow-xl max-w-40 sm:max-w-64"
+                src={onePage}
+                alt="onePage"
+            />
+            <h3 class="mb-4 text-2xl font-semibold text-emerald-400">One Page</h3>
+            <div class="flex justify-center items-baseline mb-8">
+                <span class="mr-2 text-5xl font-extrabold text-white">$4,500 <span class="font-normal text-xl">mxn</span></span>
+            </div>
+            <!-- List -->
+            <ul role="list" class="mb-8 space-y-4 text-left">
+                <li class="flex items-center space-x-3">
+                    <!-- Icon -->
+                    <svg
+                        class="flex-shrink-0 w-5 h-5 text-emerald-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        ><path
+                            fill-rule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clip-rule="evenodd"></path></svg
+                    >
+                    <span class="text-gray-400"
+                        >Diseño y desarrollo de la página de una sección con las ultimas
+                        tecnologías</span
+                    >
+                </li>
+                <li class="flex items-center space-x-3">
+                    <!-- Icon -->
+                    <svg
+                        class="flex-shrink-0 w-5 h-5 text-emerald-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        ><path
+                            fill-rule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clip-rule="evenodd"></path></svg
+                    >
+                    <span class="text-gray-400"
+                        >La one page podrá contar con hasta 4 apartados, como inicio, nosotros, servicios y contacto</span
+                    >
+                </li>
+                <li class="flex items-center space-x-3">
+                    <!-- Icon -->
+                    <svg
+                        class="flex-shrink-0 w-5 h-5 text-emerald-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        ><path
+                            fill-rule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clip-rule="evenodd"></path></svg
+                    >
+                    <span class="text-gray-400"
+                        >Incorporación de elementos visuales como imágenes o videos.</span
+                    >
+                </li>
+                <li class="flex items-center space-x-3">
+                    <!-- Icon -->
+                    <svg
+                        class="flex-shrink-0 w-5 h-5 text-emerald-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        ><path
+                            fill-rule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clip-rule="evenodd"></path></svg
+                    >
+                    <span class="text-gray-400"
+                        >Optimización para dispositivos móviles y responsive design.</span
+                    >
+                </li>
+                <li class="flex items-center space-x-3">
+                    <!-- Icon -->
+                    <svg
+                        class="flex-shrink-0 w-5 h-5 text-emerald-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        ><path
+                            fill-rule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clip-rule="evenodd"></path></svg
+                    >
+                    <span class="text-gray-400"
+                        >Vinculación a redes sociales y WhatsApp.</span
+                    >
+                </li>
+                <li class="flex items-center space-x-3">
+                    <!-- Icon -->
+                    <svg
+                        class="flex-shrink-0 w-5 h-5 text-emerald-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        ><path
+                            fill-rule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clip-rule="evenodd"></path></svg
+                    >
+                    <span class="text-gray-400"
+                        >Dominio .com, hosting y certificado de seguridad <span
+                            class="font-semibold underline">gratis por un año</span
+                        ></span
+                    >
+                </li>
+            </ul>
+            <button
+                type="button"
+                class="text-black focus:ring-4 focus:outline-none font-medium rounded-lg text-lg my-1.5 px-8 py-2 text-center lg:text-sm lg:my-0 lg:px-4 lg:py-2 bg-emerald-400 hover:bg-emerald-500 focus:ring-emerald-600 xl:mt-4"
+                >Contratar</button
+            >
+        </div>
+        <!-- 2 Pricing Card -->
+        <div
+            class="flex flex-col items-center p-8 mx-auto max-w-lg text-center bg-gray-800 bg-opacity-40 rounded-lg"
+        >
+            <Image
+                class="drop-shadow-xl max-w-36 sm:max-w-60 xl:mb-4"
+                src={multiPage}
+                alt="multiPage"
+            />
+            <h3 class="mb-4 text-2xl font-semibold text-emerald-400">Varias Secciones</h3>
+            <div class="flex justify-center items-baseline mb-8">
+                <span class="mr-2 text-5xl font-extrabold text-white">$6,200 <span class="font-normal text-xl">mxn</span></span>
+            </div>
+            <!-- List -->
+            <ul role="list" class="mb-8 space-y-4 text-left">
+                <li class="flex items-center space-x-3">
+                    <!-- Icon -->
+                    <svg
+                        class="flex-shrink-0 w-5 h-5 text-emerald-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        ><path
+                            fill-rule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clip-rule="evenodd"></path></svg
+                    >
+                    <span class="text-gray-400"
+                        >Diseño y desarrollo de la página de una sección con las ultimas
+                        tecnologías</span
+                    >
+                </li>
+                <li class="flex items-center space-x-3">
+                    <!-- Icon -->
+                    <svg
+                        class="flex-shrink-0 w-5 h-5 text-emerald-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        ><path
+                            fill-rule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clip-rule="evenodd"></path></svg
+                    >
+                    <span class="text-gray-400"
+                        >Creación de hasta 8 secciones, como Inicio, Acerca de nosotros, Servicios, Precios, Portafolio, Testimonios, Blog, Contacto, etc.</span
+                    >
+                </li>
+                <li class="flex items-center space-x-3">
+                    <!-- Icon -->
+                    <svg
+                        class="flex-shrink-0 w-5 h-5 text-emerald-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        ><path
+                            fill-rule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clip-rule="evenodd"></path></svg
+                    >
+                    <span class="text-gray-400"
+                        >Incorporación de elementos visuales como imágenes o videos.</span
+                    >
+                </li>
+                <li class="flex items-center space-x-3">
+                    <!-- Icon -->
+                    <svg
+                        class="flex-shrink-0 w-5 h-5 text-emerald-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        ><path
+                            fill-rule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clip-rule="evenodd"></path></svg
+                    >
+                    <span class="text-gray-400"
+                        >Optimización para dispositivos móviles y responsive design.</span
+                    >
+                </li>
+                <li class="flex items-center space-x-3">
+                    <!-- Icon -->
+                    <svg
+                        class="flex-shrink-0 w-5 h-5 text-emerald-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        ><path
+                            fill-rule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clip-rule="evenodd"></path></svg
+                    >
+                    <span class="text-gray-400"
+                        >Vinculación a redes sociales y WhatsApp.</span
+                    >
+                </li>
+                <li class="flex items-center space-x-3">
+                    <!-- Icon -->
+                    <svg
+                        class="flex-shrink-0 w-5 h-5 text-emerald-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        ><path
+                            fill-rule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clip-rule="evenodd"></path></svg
+                    >
+                    <span class="text-gray-400"
+                        >Dominio .com, hosting y certificado de seguridad <span
+                            class="font-semibold underline">gratis por un año</span
+                        ></span
+                    >
+                </li>
+            </ul>
+            <button
+                type="button"
+                class="text-black focus:ring-4 focus:outline-none font-medium rounded-lg text-lg my-1.5 px-8 py-2 text-center lg:text-sm lg:my-0 lg:px-4 lg:py-2 bg-emerald-400 hover:bg-emerald-500 focus:ring-emerald-600 xl:mt-4"
+                >Contratar</button
+            >
+        </div>
+        <!-- 3 Pricing Card -->
+        <div
+            class="flex flex-col items-center p-8 mx-auto max-w-lg text-center bg-gray-800 bg-opacity-40 rounded-lg xl:pt-0"
+        >
+            <Image
+                class="drop-shadow-xl max-w-48 sm:max-w-72"
+                src={ads}
+                alt="ads"
+            />
+            <h3 class="mb-4 text-2xl font-semibold text-emerald-400">Campaña en Facebook Ads</h3>
+            <div class="flex justify-center items-baseline mb-8">
+                <span class="mr-2 text-5xl font-extrabold text-white xl:mb-28">$5,000 <span class="font-normal text-xl">mxn</span></span>
+            </div>
+            <!-- List -->
+            <ul role="list" class="mb-8 space-y-4 text-left">
+                <li class="flex items-center space-x-3">
+                    <!-- Icon -->
+                    <svg
+                        class="flex-shrink-0 w-5 h-5 text-emerald-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        ><path
+                            fill-rule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clip-rule="evenodd"></path></svg
+                    >
+                    <span class="text-gray-400"
+                        >Creación y Optimización de Anuncios un anuncio por campaña</span
+                    >
+                </li>
+                <li class="flex items-center space-x-3">
+                    <!-- Icon -->
+                    <svg
+                        class="flex-shrink-0 w-5 h-5 text-emerald-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        ><path
+                            fill-rule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clip-rule="evenodd"></path></svg
+                    >
+                    <span class="text-gray-400"
+                        >Campaña con duración de un mes</span
+                    >
+                </li>
+                <li class="flex items-center space-x-3">
+                    <!-- Icon -->
+                    <svg
+                        class="flex-shrink-0 w-5 h-5 text-emerald-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        ><path
+                            fill-rule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clip-rule="evenodd"></path></svg
+                    >
+                    <span class="text-gray-400"
+                        >Segmentación y Configuración de Audiencia</span
+                    >
+                </li>
+                <li class="flex items-center space-x-3">
+                    <!-- Icon -->
+                    <svg
+                        class="flex-shrink-0 w-5 h-5 text-emerald-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        ><path
+                            fill-rule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clip-rule="evenodd"></path></svg
+                    >
+                    <span class="text-gray-400"
+                        >Estrategias de Puja</span
+                    >
+                </li>
+                <li class="flex items-center space-x-3">
+                    <!-- Icon -->
+                    <svg
+                        class="flex-shrink-0 w-5 h-5 text-emerald-400"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        ><path
+                            fill-rule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clip-rule="evenodd"></path></svg
+                    >
+                    <span class="text-gray-400"
+                        >Informes y Análisis</span
+                        >
+                </li>
+            </ul>
+            <button
+                type="button"
+                class="text-black focus:ring-4 focus:outline-none font-medium rounded-lg text-lg my-1.5 px-8 py-2 text-center lg:text-sm lg:my-0 lg:px-4 lg:py-2 bg-emerald-400 hover:bg-emerald-500 focus:ring-emerald-600 xl:mt-16"
+                >Contratar</button
+            >
+        </div>
+    </div>
+</section>
