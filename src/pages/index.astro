@@ -4,14 +4,25 @@ import Hero from "../components/Hero.astro";
 import About from "../components/About.astro";
 import Testimonials from "../components/Testimonials.astro";
 import Services from "../components/Services.astro";
+import Faq from "../components/Faq.astro";
+import Contact from "../components/Contact.astro"
+import Footer from "../components/Footer.astro";
 ---
 
-<html lang="es">
+<!-- desarrollado por RobertCoder (www.robertcoder.com) -->
+<!-- IddO Tec 2024 (www.iddotec.com) -->
+<html lang="es" class="scroll-smooth">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
+		<meta property="og:type" content="website">
+<meta property="og:title" content="IddO Tec">
+<meta name="description" content="Desarrollo web de élite para llevar tu presencia en línea al siguiente nivel. Contáctanos hoy para convertir tus ideas en una experiencia web impresionante.">
+<meta property="og:url" content="www.iddotec.com">
+<meta property="og:image" content="http://drive.google.com/uc?export=view&id=10xdL62vaB3oGAYvruTut9D5dFSK3SN6F">
+<meta property="og:description" content="Lleva tu presencia en línea al siguiente nivel con nuestro desarrollo web profesional. ¡Contáctanos hoy mismo para comenzar tu viaje digital!">
 		<title>IddO Tec</title>
 	</head>
 	<body class="bg-slate-900 max-w-screen-2xl mx-auto">
@@ -20,6 +31,9 @@ import Services from "../components/Services.astro";
 		<About/>
 		<Testimonials/>
 		<Services/>
+		<Faq/>
+		<Contact/>
+		<Footer/>
 		<script src="../../node_modules/flowbite/dist/flowbite.min.js"></script>
 	</body>
 </html>
